@@ -1,8 +1,8 @@
 # Week 6: Weather Dashboard
 
 ## Author
-- **Name:** Maisori Kitayama
-- **GitHub:** [@MaisoriKitayama](https://github.com/MaisoriKitayama)
+- **Name:** Winnie Mwangi
+- **GitHub:** [@Wynnexdev](https://github.com/Wynnexdev)
 - **Date:** March 31, 2026
 
 ## Project Description
