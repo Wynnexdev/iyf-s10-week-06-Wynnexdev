@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Weather Dashboard</h1>
+            <div class="search-container">
+                <input type="text" id="city-input" placeholder="Enter a city name..." autocomplete="off">
+                <button id="search-btn">Search</button>
+            </div>
+            <!-- Placeholder for error messages -->
+            <p id="error-message" class="hidden"></p>
+        </header>
+
+        <main id="weather-main" class="hidden">
+            <section class="current-weather">
+                <div class="weather-details">
+                    <h2 id="city-name">--</h2>
+                    <p id="date-current">--</p>
+                    <div class="temp-container">
+                        <img id="current-icon" src="" alt="Weather Icon" class="hidden">
+                        <h1 id="current-temp">--°C</h1>
+                    </div>
+                    <p id="current-desc" class="desc">--</p>
+                </div>
+                <!-- Additional details -->
+                <div class="extra-info">
+                    <div class="info-card">
+                        <p>Humidity</p>
+                        <h3 id="current-humidity">--%</h3>
+                    </div>
+                    <div class="info-card">
+                        <p>Wind Speed</p>
+                        <h3 id="current-wind">-- m/s</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="forecast-section">
+                <h3>5-Day Forecast</h3>
+                <div class="forecast-container" id="forecast-container">
+                    <!-- Forecast items will be injected here by JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
